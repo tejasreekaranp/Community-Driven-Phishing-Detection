@@ -1,0 +1,12 @@
+*.pkl
+*.csv
+*.db
+__pycache__/
+venv/
+*.pem
+tranco_top100k.txt
+*.pyc
+*.pyo
+.env
+.env.*
+.vscode/

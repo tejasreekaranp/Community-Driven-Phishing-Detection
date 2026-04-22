@@ -1,0 +1,11 @@
+flask
+flask-cors
+flask-sqlalchemy
+joblib
+numpy
+scipy
+requests
+scikit-learn
+xgboost
+gunicorn
+python-whois

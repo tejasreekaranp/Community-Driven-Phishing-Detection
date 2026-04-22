@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Detector",
+  "version": "2.0",
+  "description": "Real-time phishing detection using ML. Warns you before you get scammed.",
+
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+
+  "host_permissions": [
+    "http://127.0.0.1:5000/*"
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Phishing Detector"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
